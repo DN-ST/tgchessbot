@@ -14,9 +14,9 @@ class tgchessBot(telepot.Bot):
         self.startsheet, self.helpsheet = self.generate_sheets()
 
     def generate_sheets(self):
-        startsheet = "Hello! This is the Telegram Chess Bot @tgchessbot. \U0001F601\n"
+        startsheet = "Hello! This is the Telegram Chess Bot by developer boy a clone  chess. \U0001F601\n"
         startsheet += "For the full command list, type `/help`.\n"
-        startsheet += "(You may want to use `/help@tgchessbot` instead if there are multiple bots in your chat.)\n\n"
+        startsheet += "(You may want to use `/help` instead if there are multiple bots in your chat.)\n\n"
         startsheet += "*About*\n\n"
         startsheet += "You can play chess using @tgchessbot. To play with friends, create a group and invite @tgchessbot into it. If you wish to play alone, talk to @tgchessbot on a 1-on-1 private message.\n\n"
         startsheet += "_How to play_: Someone creates a game and picks a colour (white or black). Someone else (could be the same person) joins and is automatically assigned the other side.\n\n"
